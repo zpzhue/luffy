@@ -16,7 +16,7 @@ axios.defaults.withCredentials=true;
 // 设置vue的全局子对象
 Vue.prototype.$axios = axios; // 把对象挂载vue中
 
-var server = 'api.luffycity.cn';
+var server = 'webserver';
 var port = 8000;
 Vue.prototype.$remote_server = `http://${server}:${port}`;
 
